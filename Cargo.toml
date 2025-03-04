@@ -1,0 +1,21 @@
+[package]
+name = "demo-rust-fhir-sdk"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fhir-sdk = { version = "0.14.1" } # Fast Healthcare Interoperability Resources (FHIR) Software Development Kit (SDK).
+serde_json = { version = "1.0" } # Serialize and deserialize Rust data structures using JavaScript Object Notation (JSON).
+tokio = { version = "1.43.0", features = ["full"] } # An event-driven, non-blocking I/O platform for writing asynchronous I/O backed applications. 
+
+[dev-dependencies]
+
+## For examples
+anyhow = { version = "1.0.97" } # Flexible concrete Error type built on std::error::Error 
+
+## Cargo subcommands
+cargo-deadlinks = { version = "*" } # Check your cargo doc documentation for broken links.
+cargo-make =  { version = "*" } # Task runner akin to `make` command with `Makefile`.
+cargo-update = { version = "*" } # Check and apply updates to installed executables.
+cargo-upgrades = { version = "*" } # Show which crates need upgrades.
+cargo-watch = { version = "*" } # Run cargo commands when a file changes.

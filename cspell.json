@@ -1,0 +1,14 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "cargo-deadlinks",
+        "FHIR",
+        "fhir_sdk",
+        "serde_json"
+    ],
+    "ignoreWords": [],
+    "import": []
+}
